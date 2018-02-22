@@ -1,0 +1,68 @@
+<html>
+<head> 
+    <title>Alpha Blog HOME page</title>
+    <style type="text/css">
+    
+        #first-paragraph {
+            width:500px;
+            float:left;
+        }
+    
+        #second-paragraph {
+            width:500px;
+            float:right;
+        }
+        
+        #clear-float {
+            
+            clear:both;
+        }
+        
+        #color-banner {
+          
+          height: 150px;
+          width: 100%;
+          background-color: #82E0AA;
+          text-align: center;
+          font-size: 300%;
+          
+        }
+        
+        footer {
+            text-align: center;
+        }
+    
+    </style>
+    </head>
+
+<body>
+<div>
+    <h1>Alpha Blog HOME page</h1>
+<!--    <img src="desk2.jpg" width=1500 height=300>
+-->
+    <div id="color-banner"> 
+    <p>THIS IS THE HOME PAGE FOR ALPHA BLOG!</p>
+    
+    </div>
+    <div id="first-paragraph">
+        <p>THIS IS MY FIRST PARAGRAPH. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+    <div id="second-paragraph">
+        <p> THIS IS MY SECOND PARAGRAPH. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.    
+</p>
+    </div>
+</div>
+    <div id="clear-float"></div>
+    <br>
+    <br>
+    <%= link_to 'About Page', about_path %>
+    <br>
+    <br>
+    <br>
+
+
+</body>
+    <footer>
+        <p>Webpage created by Ben Brooks. Copyright 2018.</p>
+    </footer>
+</html>
